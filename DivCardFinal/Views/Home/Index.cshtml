@@ -1,6 +1,4 @@
-﻿@{
-    ViewData["Title"] = "صفحه نخست";
-}
+﻿@{ViewData["Title"] = "صفحه نخست";}
 
 <section class="about-me-section p-3 p-lg-5 theme-bg-light">
     <div class="container">
@@ -42,3 +40,11 @@
 
 
 @await Component.InvokeAsync("LatestArticles")
+
+
+<div class="container">
+    <hr>
+</div>
+
+
+@await  Component.InvokeAsync("News")
